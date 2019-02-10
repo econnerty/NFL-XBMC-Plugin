@@ -16,7 +16,7 @@ def login(driver):
     element.send_keys("erk3452@gmail.com")
 
     element = driver.find_element_by_id("Password")
-    element.send_keys("Elc@28946")
+    element.send_keys("")
 
     driver.find_element_by_tag_name("button").click()
 
